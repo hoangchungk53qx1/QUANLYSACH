@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/ic_background"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="THÊM SÁCH"
+        android:textColor="#111"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMaSach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="Nhập mã sách"
+        android:textColor="#111"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:hint="Nhập tên sách"
+        android:textColor="#111"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtNgayXb"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:hint="Ngày xuất bản"
+        android:textColor="#111"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spMaLS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/ic_custombutton"
+        >
+        <Button
+            android:id="@+id/bntThemmoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THÊM MỚI "
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:id="@+id/bntNhapLai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NHẬP LẠI"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>
